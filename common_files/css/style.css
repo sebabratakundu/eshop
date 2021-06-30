@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+*{
+	box-sizing: border-box !important;
+}
+
+*:focus{
+  outline: none;
+  box-shadow: none !important;
+}
+
+.input{
+  width:100%;
+  background:white;
+  border-radius: 50px;
+  border:none;
+  padding:10px 20px;
+  margin-bottom:20px !important;
+}
+
+.input::placeholder{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.generate-btn{
+  background:white !important;
+  color:black !important;
+  border-radius : 50px !important;
+  padding : 8px 20px !important;
+  font-weight: bold !important;
+}
+
+.generate-btn:hover{
+  background:#343A40 !important;
+  color:white !important;
+}
+
+.submit-btn,.activate-btn,.login-signup-btn,.login-btn,.resend-code-btn,.send-code-btn{
+  padding : 8px 20px !important;
+  border-radius: 50px !important;
+}
+
+.submit-btn:hover,.login-signup-btn:hover,.activate-btn:hover,.resend-code-btn:hover,.send-code-btn:hover{
+  background:white !important;
+  color: black !important;
+  border : 1px solid white !important;
+}
+
+#password-box,#email-box,#login-password-box{
+  width : 100%;
+  height: 50px;
+  border : none;
+  border-radius : 50px;
+  margin-bottom : 20px;
+  position : relative;
+}
+
+#password,#email,#login-password{
+  position : absolute;
+}
+
+.show-icon,.email-icon,.login-show-icon{
+  position : absolute;
+  z-index: 1;
+  right : 15px;
+  top : 30%;
+  color : #ccc;
+  cursor : pointer;
+}
+
+.carousel-caption{
+	height:100%;
+}
+
+@media(max-width: 768px){
+	.carousel-caption{
+		justify-content: center !important;
+	}
+
+	#product-slider h1{
+		font-size:250% !important;
+	}
+
+	#product-slider h4{
+		font-size:120% !important;
+	}
+
+	#product-slider button a{
+		font-size:15px !important;
+	}
+}
+
+@media(max-width: 576px){
+	.carousel-box{
+		margin-top:55px !important;
+	}
+
+	#category-showcase img{
+		width : 80% !important;
+		margin-left:10% !important;
+		margin-right: 10% !important;
+	}
+}

@@ -1,0 +1,12 @@
+AuthName "employee_panel"
+AuthType Besic
+AuthUserFile c:/wamp64/www/bom/php/eshop/employee_panel/.htpasswd
+# Require valid-user
+
+ErrorDocument 403 http://localhost/bom/php/eshop/error_403.php
+
+Order Deny,Allow
+
+Deny from 192.168.160.1
+
+Allow from all

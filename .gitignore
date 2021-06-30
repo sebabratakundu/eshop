@@ -1,0 +1,6 @@
+# ignore dom pdf
+
+/dompdf
+
+#ignore rezor pay 
+/pay
